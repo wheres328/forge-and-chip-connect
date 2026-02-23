@@ -1,0 +1,25 @@
+{
+  "name": "forge-and-chip-connect",
+  "version": "1.0.0",
+  "description": "CLI tool to download drivers and programs from GitHub Releases",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "forge-connect": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}

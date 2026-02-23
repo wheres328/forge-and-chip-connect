@@ -14,7 +14,7 @@ A CLI tool to download drivers and programs from GitHub Releases with a beautifu
 
 ```bash
 # Clone the repository
-git clone <repo-url>
+git clone https://github.com/wheres328/forge-and-chip-connect.git
 cd forge-and-chip-connect
 
 # Install dependencies
